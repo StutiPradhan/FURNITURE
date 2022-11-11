@@ -26,10 +26,12 @@
     border-radius: 2rem;
     background-color: rgb(250, 249, 248);
     text-align: justify;
-    top:5rem;
+    align-items: center;
+    justify-content: center;
+    /* top:5rem;
     bottom: 5rem;
     left: 15rem;
-    right: 15rem;
+    right: 15rem; */
 }
 #imag{
     opacity: 0.8;
@@ -41,31 +43,32 @@
     padding-bottom: 6rem; 
 }
 #text h2{
-    margin-left: 10rem;
+    /* margin-left: 2rem; */
     color: black;
     font-size: 2rem;
     font-weight: 200;
 }
 input[type="text"]
 {
-    padding-left:8rem;
+    /* padding-left:8rem; */
     text-align: center;
-    font-size:24px;
+    border-radius: 0.5rem;
+    font-size:1.3rem;
 }
-button{
+/* button{
     width:max-content
-}
+} */
 button[type="submit"]
 {
     text-align: center;
-    width: 20%;
-    height: 50%;
+    width:8rem;
+    /* height: 2rem; */
     background-color:rgb(2, 70, 2) ;
     color: white;
 }
-#text p{
+/* #text p{
     margin-left: 10rem;
-}
+} */
 footer{
     height: 25rem;
     padding-top: 6rem;
