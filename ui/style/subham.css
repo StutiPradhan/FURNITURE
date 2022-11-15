@@ -25,6 +25,7 @@ h1 {
 .show {
     display: flex;
     justify-content: center;
+    margin-top: 7rem;
 }
 
 img:hover {
