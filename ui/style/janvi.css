@@ -18,24 +18,34 @@
     background-position: center; 
     position: relative;
 }
-.box{
-    position: absolute;
-    z-index: 2;
-    box-sizing: border-box;
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    box-sizing: content-box;
     border: 2rem ;
     border-radius: 2rem;
     background-color: rgb(250, 249, 248);
     text-align: justify;
     align-items: center;
     justify-content: center;
+    opacity: 0.8;
     /* top:5rem;
     bottom: 5rem;
     left: 15rem;
     right: 15rem; */
 }
-#imag{
-    opacity: 0.8;
+@media screen and (max-width=500px){
+  #box{
+    width:50%;
+    display: block;
+  }  
 }
+/* #imag{
+    opacity: 0.8;
+} */
 #text{
     padding-left: 25rem;
     padding-right: 20rem;
@@ -120,6 +130,4 @@ footer{
         margin-bottom: 50px;
     }
 }
-
-
 
